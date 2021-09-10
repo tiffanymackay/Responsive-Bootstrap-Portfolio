@@ -122,7 +122,11 @@ ul a:hover {
     padding: 20px 0 30px 0;
 }
 /* Portfolio Styles */
+.work-container {
+     padding-top: 60px;
+    padding-bottom: 30px;
 
+}
 .portfolio-images {
     text-align: center;
 }
@@ -176,10 +180,10 @@ small {
 .contact-info {
     text-align: center;
 }
-.contact-list {
+.row {
     padding: 0px;
 }
-.contact-list li {
+.row li {
     list-style-type: none;
 }
 
