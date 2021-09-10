@@ -62,7 +62,7 @@ h4 {
 h5 {
     font-weight: 500;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
 }
 p {
     font-size: 18px;
@@ -184,6 +184,7 @@ small {
     text-transform: none;
     font-size: .8rem !important;
 }
+
 
 /* Back to top button styles */
 .display-button {
