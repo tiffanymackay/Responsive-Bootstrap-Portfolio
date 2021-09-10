@@ -100,9 +100,13 @@ p {
 }
 
 /* Text Links Styles */
+a h1 {
+    color: #000000 !important;
+}
 a {
     text-decoration: none !important;
-    color: #44524E !important;
+    color: #467568 !important;
+    font-weight: 600;
 }
 ul a:hover {
     color: #E6704D !important;
