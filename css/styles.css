@@ -63,11 +63,11 @@ h5 {
     font-weight: 500;
     font-size: 2rem;
     text-align: center;
+    padding-top: 20px;
 }
 p {
-    font-size: 18px;
+    font-size: 1.1rem;
 }
-
 
 
 /* Welcome Intro Text Container Styles */
@@ -185,6 +185,16 @@ small {
     font-size: .8rem !important;
 }
 
+/*Contact page styles */
+.contact-info {
+    text-align: center;
+}
+.contact-list {
+    padding: 0px;
+}
+.contact-list li {
+    list-style-type: none;
+}
 
 /* Back to top button styles */
 .display-button {
