@@ -90,7 +90,7 @@ p {
     padding: 10px 20px;
     margin: 10px 15px 0px 5px;
     text-decoration: none;
-    color: #000;
+    color: #000 !important;
     font-size: 1rem;
     font-weight: 600;
     border-radius: 5px;
@@ -101,6 +101,9 @@ p {
 
 /* Text Links Styles */
 a h1 {
+    color: #000000 !important;
+}
+li a {
     color: #000000 !important;
 }
 a {
