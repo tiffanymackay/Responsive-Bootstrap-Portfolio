@@ -304,8 +304,9 @@ small {
         background-size: 250%;
     }
     h1 {
-        padding: 10px;
+        padding-top: 20px;
         margin: 10px 0px;
+        font-size: 1.5rem !important;
     }
     header {
         padding: 10px;
