@@ -42,7 +42,7 @@ h1 {
 /* Page Text Styles */
 h2 {
     font-size: 3rem !important;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 .project-h2 {
     font-size: 3rem;
