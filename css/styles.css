@@ -49,7 +49,7 @@ h2 {
 }
 h3 {
     font-weight: 500;
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     line-height: 40px;
 }
 
@@ -71,25 +71,12 @@ p {
 
 
 /* Welcome Intro Text Container Styles */
-/* .container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 80%;
-    margin: auto;
-}
-.container img {
-    max-height: 400px;
-    padding: 10px;
-}
 
-.intro-text {
-    padding-left: 40px;
-} */
 .alignment {
     text-align: center;
 }
 .profile-img {
-    width: 400px;
+    width: 350px;
 }
 .hello {
     margin-top: 0px;
@@ -112,10 +99,10 @@ p {
 /* Text Links Styles */
 a {
     text-decoration: none !important;
-    color: #000000 !important;
+    color: #44524E !important;
 }
 ul a:hover {
-    color: rgba(115, 128, 141, 1);
+    color: #E6704D !important;
 }
 .ig-img:hover {
     filter: opacity(50%);
@@ -197,6 +184,7 @@ footer {
 }
 small {
     text-transform: none;
+    font-size: .8rem !important;
 }
 
 /* Back to top button styles */
