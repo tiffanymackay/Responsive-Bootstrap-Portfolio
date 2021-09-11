@@ -152,20 +152,20 @@ ul a:hover {
 /* Quote Styles */
 .quote {
     background-color: #CFF1EA;
-    height: 250px;
+    padding-top: 30px;
 }
 .quote-mark {
     display: block;
     margin: auto;
-    padding-top: 40px;
-    height: 30px;
+    height: 1rem;
 }
 q {
     quotes: none;
     display: block;
     font-style: italic;
     text-align: center;
-    padding: 50px 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .author {
     padding-top: 20px;
@@ -302,9 +302,6 @@ small {
     }
     .quote-mark {
         height: 20px;
-    }
-    .work-grid {
-        grid-template-columns: 1fr 1fr;
     }
     
 }
