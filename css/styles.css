@@ -38,6 +38,9 @@ h1 {
     font-size: 2rem;
     text-transform: uppercase;
 }
+.logo {
+    max-width: 400px;
+}
 
 /* Page Text Styles */
 h2 {
@@ -242,6 +245,9 @@ small {
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
+    body {
+        background-size: 150%;
+    }
     header {
         padding-bottom: 50px;
     }
@@ -284,7 +290,7 @@ small {
 }
 @media (max-width: 1040px) {
     body {
-        background-size: 130%;
+        background-size: 150%;
     }
     
     h2 {
@@ -307,7 +313,12 @@ small {
 }
 
 @media (max-width: 925px) {
-
+    body {
+        background-size: 200%;
+    }
+    .logo {
+        max-width: 270px;
+    }
     .intro-img {
         text-align: center;
     }
@@ -321,11 +332,6 @@ small {
 @media (max-width: 630px) {
     body {
         background-size: 250%;
-    }
-    h1 {
-        padding-top: 20px;
-        margin: 10px 0px;
-        font-size: 1.5rem !important;
     }
     header {
         padding: 10px;
@@ -362,4 +368,19 @@ small {
         padding: 20px;
     }
 
+}
+@media (max-width: 425px) {
+    body {
+        background-size: 275%;
+    }
+    .logo {
+        max-width: 200px;
+    }
+    h2 {
+        font-size: 2rem !important;
+    }
+    h3 {
+        font-size: 1.5rem !important;
+    }
+    
 }
