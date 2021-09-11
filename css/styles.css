@@ -98,6 +98,12 @@ p {
 .button:hover {
     background-color: #E1DAEE;
 }
+.technologies {
+    text-align: center;
+}
+.technology-icon {
+    max-width: 60%;
+}
 
 /* Text Links Styles */
 a h1 {
@@ -327,14 +333,8 @@ small {
     header {
         padding: 10px;
     }
-    .work-grid {
-        grid-template-columns: 1fr;
-    }
-    .work-grid img {
-        text-align: center;
-    }
-    .work-grid a {
-        text-align: center;
+    .technology-icon {
+        max-width: 20%;
     }
     q {
         padding: 50px;
