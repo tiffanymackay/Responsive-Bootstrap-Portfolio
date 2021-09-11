@@ -140,6 +140,9 @@ ul a:hover {
 .portfolio-images img:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.view-more {
+    text-align: center;
+}
 /* Quote Styles */
 .quote {
     background-color: #CFF1EA;
